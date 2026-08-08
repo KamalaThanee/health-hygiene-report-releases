@@ -4,13 +4,13 @@
   "channel": "stable",
   "version": "0.1.2",
   "minimumSupportedVersion": "0.1.1",
-  "publishedAt": "2026-08-08T05:51:38.952784\u002B00:00",
+  "publishedAt": "2026-08-08T14:17:33.1554748\u002B00:00",
   "mandatory": false,
-  "releaseNotes": "Phase 6C.1 signed update staging acceptance. No installation is performed.",
+  "releaseNotes": "Phase 6C.2/6C.3 safe binary installation with startup health validation and automatic rollback. Stable application Data is not replaced or rolled back.",
   "package": {
-    "url": "https://raw.githubusercontent.com/KamalaThanee/health-hygiene-report-releases/main/stable/HealthHygieneReport-0.1.2-win-x64-portable.zip",
-    "sizeBytes": 60458251,
-    "sha256": "CF4483188DD2DD921F9CDC80EEEEA7AEBAA84A4DB68FFBAA9A8731CEBD51AE5D",
+    "url": "https://github.com/KamalaThanee/health-hygiene-report-releases/releases/download/v0.1.2/HealthHygieneReport-0.1.2-win-x64-portable.zip",
+    "sizeBytes": 123784964,
+    "sha256": "EEFB77CE513BFD512E6F2C0AA2A05A090652E0AB2BA38689E46D1EE3E50CFBA0",
     "format": "zip"
   },
   "dataSchema": {
@@ -20,6 +20,6 @@
   "signature": {
     "algorithm": "ECDSA-P256-SHA256",
     "keyId": "hhi-release-2026-01",
-    "value": "CtnWKdyCDDcFBYLPRhPvO6AOr2jSytN2f3uw4JfsG8lL0h5ITw78\u002BKO\u002BZHGR5DBmZLQfyZjt\u002B/Fb0cxOwjkTNQ=="
+    "value": "0pi5vo0lBImhuU/7M7dHU89/NufYUbclKCHIwEJ7aCgR0\u002BW3cx0L1e4Zfuj0YVCHxmfhjj8A4Qxlkcbk4ASHfA=="
   }
 }
