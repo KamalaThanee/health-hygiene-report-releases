@@ -1,0 +1,25 @@
+{
+  "manifestVersion": 1,
+  "productId": "kmt-health-hygiene-report",
+  "channel": "stable",
+  "version": "0.1.2",
+  "minimumSupportedVersion": "0.1.1",
+  "publishedAt": "2026-08-08T10:25:50.9307055\u002B00:00",
+  "mandatory": false,
+  "releaseNotes": "Controlled Phase 6C.1 packaged command acceptance.",
+  "package": {
+    "url": "https://raw.githubusercontent.com/KamalaThanee/health-hygiene-report-releases/main/acceptance/phase6c1-small-package.zip",
+    "sizeBytes": 2097847,
+    "sha256": "B40FB3FF79D12421C06C409F1A3739B71E2D5049611160DE486C9F40CDD94BE7",
+    "format": "zip"
+  },
+  "dataSchema": {
+    "minimumReadable": 5,
+    "target": 5
+  },
+  "signature": {
+    "algorithm": "ECDSA-P256-SHA256",
+    "keyId": "hhi-release-2026-01",
+    "value": "p8S1aO/ocEnxm/Q/FqWihrRqY6z7gqZfTnRbB8haabzWxi4Se5Ji4ltS0Opxd9Cohxr2nGb0TuLktIj759ydrg=="
+  }
+}
