@@ -1,0 +1,25 @@
+{
+  "manifestVersion": 1,
+  "productId": "kmt-health-hygiene-report",
+  "channel": "stable",
+  "version": "0.1.2",
+  "minimumSupportedVersion": "0.1.1",
+  "publishedAt": "2026-08-08T07:44:47.8810374\u002B00:00",
+  "mandatory": false,
+  "releaseNotes": "Controlled hash-mismatch acceptance fixture.",
+  "package": {
+    "url": "https://raw.githubusercontent.com/KamalaThanee/health-hygiene-report-releases/main/security-fixtures/tampered-package.zip",
+    "sizeBytes": 60458251,
+    "sha256": "CF4483188DD2DD921F9CDC80EEEEA7AEBAA84A4DB68FFBAA9A8731CEBD51AE5D",
+    "format": "zip"
+  },
+  "dataSchema": {
+    "minimumReadable": 5,
+    "target": 5
+  },
+  "signature": {
+    "algorithm": "ECDSA-P256-SHA256",
+    "keyId": "hhi-release-2026-01",
+    "value": "x1AspYUZ5IaOR4dHH2\u002BBHuREep0443yIDqC5a/71Vkmyy4yooNd1EMpmNwHD1CzMhGDD69FCYCeYKWmDuz2WNw=="
+  }
+}
