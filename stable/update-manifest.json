@@ -2,15 +2,15 @@
   "manifestVersion": 1,
   "productId": "kmt-health-hygiene-report",
   "channel": "stable",
-  "version": "0.1.3",
-  "minimumSupportedVersion": "0.1.2",
-  "publishedAt": "2026-08-10T00:03:53.291134\u002B00:00",
+  "version": "0.1.5",
+  "minimumSupportedVersion": "0.1.3",
+  "publishedAt": "2026-08-10T09:38:38.3215679\u002B00:00",
   "mandatory": false,
-  "releaseNotes": "Production AI provenance and Responsible Department taxonomy hotfix. Correctly scopes numbered Thai source observations per finding, preserves one-source-to-multiple-findings behavior, makes Original Thai source read-only, and restricts Responsible Department to Catering, Marine, Safety, Medic, and Other with safe legacy normalization.",
+  "releaseNotes": "Health \u0026 Hygiene Report 0.1.5 completes the final UI and workflow refinement release.\n\n- Simplifies Inspection Details and improves Findings Review.\n- Adds safe deletion support for manually added Pending Findings.\n- Improves Responsible Department classification.\n- Refines the compact Corrective Actions workflow and Before/After evidence management.\n- Refreshes the application icon.\n- Clarifies About/Updates information and Device Activation controls.\n",
   "package": {
-    "url": "https://github.com/KamalaThanee/health-hygiene-report-releases/releases/download/v0.1.3/HealthHygieneReport-0.1.3-win-x64-portable.zip",
-    "sizeBytes": 123800791,
-    "sha256": "1E6A90E92E71DF39471909FD135511DF85FBAC53FF761775BB45A0EB2A9556BB",
+    "url": "https://github.com/KamalaThanee/health-hygiene-report-releases/releases/download/v0.1.5/HealthHygieneReport-0.1.5-win-x64-portable.zip",
+    "sizeBytes": 123859268,
+    "sha256": "F4C5B3B22B205EC56E238A5FC78EE524FE5F3A7089AAAF0C5C0816DAC5FF12A3",
     "format": "zip"
   },
   "dataSchema": {
@@ -20,6 +20,6 @@
   "signature": {
     "algorithm": "ECDSA-P256-SHA256",
     "keyId": "hhi-release-2026-01",
-    "value": "uZ\u002Bjr/3BF\u002B5NCLVcx/rxpQLZyYZNdZOkv\u002BAg0lG8YAj6Tcc1G\u002BzlXLX6Mvc\u002BnkN\u002B5S\u002B8dTnj3vqD\u002BhUid/IbCw=="
+    "value": "APia\u002B3wzR/bc2ZVsQOLJuhcRnPtNh8VYukSRoyGaKK/IuAF/JYdSN054gVjYVY0GLm5EGaHdB5ldL8WWxEZjxQ=="
   }
 }
