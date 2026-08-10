@@ -2,24 +2,24 @@
   "manifestVersion": 1,
   "productId": "kmt-health-hygiene-report",
   "channel": "stable",
-  "version": "0.1.2",
-  "minimumSupportedVersion": "0.1.1",
-  "publishedAt": "2026-08-08T14:17:33.1554748\u002B00:00",
+  "version": "0.1.3",
+  "minimumSupportedVersion": "0.1.2",
+  "publishedAt": "2026-08-10T00:03:53.291134\u002B00:00",
   "mandatory": false,
-  "releaseNotes": "Phase 6C.2/6C.3 safe binary installation with startup health validation and automatic rollback. Stable application Data is not replaced or rolled back.",
+  "releaseNotes": "Production AI provenance and Responsible Department taxonomy hotfix. Correctly scopes numbered Thai source observations per finding, preserves one-source-to-multiple-findings behavior, makes Original Thai source read-only, and restricts Responsible Department to Catering, Marine, Safety, Medic, and Other with safe legacy normalization.",
   "package": {
-    "url": "https://github.com/KamalaThanee/health-hygiene-report-releases/releases/download/v0.1.2/HealthHygieneReport-0.1.2-win-x64-portable.zip",
-    "sizeBytes": 123784964,
-    "sha256": "EEFB77CE513BFD512E6F2C0AA2A05A090652E0AB2BA38689E46D1EE3E50CFBA0",
+    "url": "https://github.com/KamalaThanee/health-hygiene-report-releases/releases/download/v0.1.3/HealthHygieneReport-0.1.3-win-x64-portable.zip",
+    "sizeBytes": 123800791,
+    "sha256": "1E6A90E92E71DF39471909FD135511DF85FBAC53FF761775BB45A0EB2A9556BB",
     "format": "zip"
   },
   "dataSchema": {
     "minimumReadable": 5,
-    "target": 5
+    "target": 6
   },
   "signature": {
     "algorithm": "ECDSA-P256-SHA256",
     "keyId": "hhi-release-2026-01",
-    "value": "0pi5vo0lBImhuU/7M7dHU89/NufYUbclKCHIwEJ7aCgR0\u002BW3cx0L1e4Zfuj0YVCHxmfhjj8A4Qxlkcbk4ASHfA=="
+    "value": "uZ\u002Bjr/3BF\u002B5NCLVcx/rxpQLZyYZNdZOkv\u002BAg0lG8YAj6Tcc1G\u002BzlXLX6Mvc\u002BnkN\u002B5S\u002B8dTnj3vqD\u002BhUid/IbCw=="
   }
 }
