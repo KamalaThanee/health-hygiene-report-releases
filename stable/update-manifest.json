@@ -2,15 +2,15 @@
   "manifestVersion": 1,
   "productId": "kmt-health-hygiene-report",
   "channel": "stable",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "minimumSupportedVersion": "0.1.3",
-  "publishedAt": "2026-08-14T06:26:10.7188563\u002B00:00",
+  "publishedAt": "2026-08-17T08:55:41.0817645\u002B00:00",
   "mandatory": false,
-  "releaseNotes": "# Health \u0026 Hygiene Report 0.1.6\n\n## Health \u0026 Hygiene Inspection\n\n- Complete inspection scoring inside the application.\n- Twelve controlled sections and 181 controlled inspection items.\n- Blank, 0, 1, 2, 3, and NA scoring with live section subtotals and a weighted Final Score.\n- Previous-audit score and comment prefill.\n- Improved inspection navigation and autosave behavior.\n\n## Excel and Word\n\n- Improved Excel evidence-photo layout.\n- Balanced fit for a single photo and equal true-cover tiles for two photos.\n- Improved Word export naming based on the Inspection Date.\n\n## Updates\n\n- Automatic in-app notification when a newer signed stable version is available.\n",
+  "releaseNotes": "# Health \u0026 Hygiene Report 0.1.7\n\n## Findings\n\n- The Finding action is now **Delete** instead of Dismiss.\n- Deleting a Finding also removes its associated corrective action from the inspection.\n- Findings dismissed by earlier versions are no longer included in active reports.\n\n## Excel and Word\n\n- Improved evidence-photo sizing when one side has one photo and the other has two.\n- Mixed 1-vs-2 and 2-vs-1 layouts now use equal individual photo tile sizes.\n- A single photo remains centered and uncropped.\n- Two-photo layouts retain the accepted True Cover presentation.\n\n## Dates\n\n- Inspection dates now use an English display format such as **15 Aug 2026**.\n",
   "package": {
-    "url": "https://github.com/KamalaThanee/health-hygiene-report-releases/releases/download/v0.1.6/HealthHygieneReport-0.1.6-win-x64-portable.zip",
-    "sizeBytes": 123977141,
-    "sha256": "A92431C5DCC4DCCB806B958E31325DD4A34477F879BF969A9FC0A849D58CC61B",
+    "url": "https://github.com/KamalaThanee/health-hygiene-report-releases/releases/download/v0.1.7/HealthHygieneReport-0.1.7-win-x64-portable.zip",
+    "sizeBytes": 123985034,
+    "sha256": "BE303A72B94F1475A6F95096F2FE64DA91321FDB3579D719C162CAEBB0A4DB3F",
     "format": "zip"
   },
   "dataSchema": {
@@ -20,6 +20,6 @@
   "signature": {
     "algorithm": "ECDSA-P256-SHA256",
     "keyId": "hhi-release-2026-01",
-    "value": "wbCySjH3\u002BiYOgSapEgTudXPd2a9/EXlkxkobr5NdU/tjg9Mo3pCKH/Zcx0pz9Whu6GAB6uJVpxqj5aC8vZkQRw=="
+    "value": "1la//Tpco3nGr7B6g1DMewjxObXpELOBm9DfJ\u002BsjwTpW/oPyxkRw5jccJJ70gpWU4IXUdZLAx6gqhYLQ3MStwQ=="
   }
 }
