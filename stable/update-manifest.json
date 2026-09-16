@@ -2,15 +2,15 @@
   "manifestVersion": 1,
   "productId": "kmt-health-hygiene-report",
   "channel": "stable",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "minimumSupportedVersion": "0.1.1",
-  "publishedAt": "2026-09-10T13:07:59.221641\u002B00:00",
+  "publishedAt": "2026-09-16T19:20:53.8237291\u002B00:00",
   "mandatory": false,
-  "releaseNotes": "# Health \u0026 Hygiene Report 0.1.9\n\n## Updates\n\n- Prefills Health \u0026 Hygiene assessment scores from the latest earlier audit for the same vessel.\n- Shows a confirmation message when scores were copied, while keeping all scores editable for the current audit.\n- Prevents checklist section headings from being stranded at the bottom of a Word page.\n- Enlarges single evidence photos in Word exports while preserving their aspect ratio.\n\nExisting project data is preserved. Users can review and adjust every prefilled score before saving the current audit.\n",
+  "releaseNotes": "# Health \u0026 Hygiene Report 0.1.10\n\n## Export layout fixes\n\n- Keeps checklist section headings together with the first question in Word exports.\n- Keeps Word single portrait photos aligned to the paired-photo tile size and centered.\n- Keeps Word single landscape photos at the paired-photo row height.\n- Adds a safe inset and strict cell-bound clamping for Excel evidence photos.\n\nExisting project data is preserved.\n",
   "package": {
-    "url": "https://github.com/KamalaThanee/health-hygiene-report-releases/releases/download/v0.1.9/HealthHygieneReport-0.1.9-win-x64-portable.zip",
-    "sizeBytes": 123988096,
-    "sha256": "5691A0B95AD195C0C32CAAF8951BE28D68EAA9F693922EFBA3179CE1961D91D6",
+    "url": "https://github.com/KamalaThanee/health-hygiene-report-releases/releases/download/v0.1.10/HealthHygieneReport-0.1.10-win-x64-portable.zip",
+    "sizeBytes": 123988217,
+    "sha256": "0CA1F30C1CB0221CBF2B66F97D2019AEE72E8681E8C5956B57F7A517AC3AAF1D",
     "format": "zip"
   },
   "dataSchema": {
@@ -20,6 +20,6 @@
   "signature": {
     "algorithm": "ECDSA-P256-SHA256",
     "keyId": "hhi-release-2026-01",
-    "value": "\u002BNBJNfVlOFOgcMvA29c8\u002BVTob/rd4z/bNLFzQXEF\u002BX28nPQLRCdct0CeAGPljbr45C6JvBqiee5Fa/lTcsI/TA=="
+    "value": "hdKIYYqkMLZkWBLIycVCn4L/AXxha2rGUMItrmQ0BEJsrD\u002B7AoTAtC7iD3IlMgb/MazAQ10YI24H181o7w6zeQ=="
   }
 }
