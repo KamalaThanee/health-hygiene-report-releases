@@ -2,15 +2,15 @@
   "manifestVersion": 1,
   "productId": "kmt-health-hygiene-report",
   "channel": "stable",
-  "version": "0.1.11",
+  "version": "0.1.12",
   "minimumSupportedVersion": "0.1.1",
-  "publishedAt": "2026-11-21T04:17:26.9651985\u002B00:00",
+  "publishedAt": "2026-11-21T05:57:33.7669979\u002B00:00",
   "mandatory": false,
-  "releaseNotes": "# Health \u0026 Hygiene Report 0.1.11\n\n## AI settings and model updates\n\n- Renames the main navigation to **Settings**, with separate **Service status** and **AI settings** sections.\n- Shows the active shared AI primary and fallback models in AI settings, with a link to edit them in the Owner Admin Portal.\n- Notifies the user when the shared AI model configuration changes. Acknowledging the notice automatically tests the AI service on that computer.\n- Keeps AI model administration and fallback order in the Owner Admin Portal.\n\nExisting projects and application data are preserved. The application checks the signed stable update manifest at startup; users can also check manually from **About**.\n",
+  "releaseNotes": "# Health \u0026 Hygiene Report 0.1.12\n\n## AI settings and model updates\n\n- Moves **Test AI Service** into **AI settings**.\n- When a new shared AI model configuration is acknowledged, opens AI settings, runs the service test automatically, and displays its result.\n- Shows the primary model and all configured fallback models in order.\n- Extends the device status response to return the complete ordered fallback list.\n\nExisting projects and application data are preserved. The application checks the signed stable update manifest at startup; users can also check manually from **About**.\n",
   "package": {
-    "url": "https://github.com/KamalaThanee/health-hygiene-report-releases/releases/download/v0.1.11/HealthHygieneReport-0.1.11-win-x64-portable.zip",
-    "sizeBytes": 128099155,
-    "sha256": "CD69EF0A10C7D3C57CA7586AFD1830A4B2DCDDF46C0E1E886B0BE06CF32B45BE",
+    "url": "https://github.com/KamalaThanee/health-hygiene-report-releases/releases/download/v0.1.12/HealthHygieneReport-0.1.12-win-x64-portable.zip",
+    "sizeBytes": 128099967,
+    "sha256": "64A5C9A0ACE237FA19F38258ACEC2E6025303C7BC680E52AEA7BB7BE76DDCB45",
     "format": "zip"
   },
   "dataSchema": {
@@ -20,6 +20,6 @@
   "signature": {
     "algorithm": "ECDSA-P256-SHA256",
     "keyId": "hhi-release-2026-01",
-    "value": "80RgZnnZtANOxR0JAAgZoeNxSAUMs4bX\u002B2pnbFDS8B\u002BnPat3G4NpfJbZy0EZyK5xdB4Bw5yRM3rfEULIQucNwg=="
+    "value": "wdjOFFR5UhWCcc5cLAiTWOLr926W17C64u\u002BrXseqc3JqXesG4zZkPk2ANOUOs1YEQ5feRZDBdgS4FSj8h0opMA=="
   }
 }
