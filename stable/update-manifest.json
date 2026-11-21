@@ -2,15 +2,15 @@
   "manifestVersion": 1,
   "productId": "kmt-health-hygiene-report",
   "channel": "stable",
-  "version": "0.1.10",
+  "version": "0.1.11",
   "minimumSupportedVersion": "0.1.1",
-  "publishedAt": "2026-09-16T19:20:53.8237291\u002B00:00",
+  "publishedAt": "2026-11-21T04:17:26.9651985\u002B00:00",
   "mandatory": false,
-  "releaseNotes": "# Health \u0026 Hygiene Report 0.1.10\n\n## Export layout fixes\n\n- Keeps checklist section headings together with the first question in Word exports.\n- Keeps Word single portrait photos aligned to the paired-photo tile size and centered.\n- Keeps Word single landscape photos at the paired-photo row height.\n- Adds a safe inset and strict cell-bound clamping for Excel evidence photos.\n\nExisting project data is preserved.\n",
+  "releaseNotes": "# Health \u0026 Hygiene Report 0.1.11\n\n## AI settings and model updates\n\n- Renames the main navigation to **Settings**, with separate **Service status** and **AI settings** sections.\n- Shows the active shared AI primary and fallback models in AI settings, with a link to edit them in the Owner Admin Portal.\n- Notifies the user when the shared AI model configuration changes. Acknowledging the notice automatically tests the AI service on that computer.\n- Keeps AI model administration and fallback order in the Owner Admin Portal.\n\nExisting projects and application data are preserved. The application checks the signed stable update manifest at startup; users can also check manually from **About**.\n",
   "package": {
-    "url": "https://github.com/KamalaThanee/health-hygiene-report-releases/releases/download/v0.1.10/HealthHygieneReport-0.1.10-win-x64-portable.zip",
-    "sizeBytes": 123988217,
-    "sha256": "0CA1F30C1CB0221CBF2B66F97D2019AEE72E8681E8C5956B57F7A517AC3AAF1D",
+    "url": "https://github.com/KamalaThanee/health-hygiene-report-releases/releases/download/v0.1.11/HealthHygieneReport-0.1.11-win-x64-portable.zip",
+    "sizeBytes": 128099155,
+    "sha256": "CD69EF0A10C7D3C57CA7586AFD1830A4B2DCDDF46C0E1E886B0BE06CF32B45BE",
     "format": "zip"
   },
   "dataSchema": {
@@ -20,6 +20,6 @@
   "signature": {
     "algorithm": "ECDSA-P256-SHA256",
     "keyId": "hhi-release-2026-01",
-    "value": "hdKIYYqkMLZkWBLIycVCn4L/AXxha2rGUMItrmQ0BEJsrD\u002B7AoTAtC7iD3IlMgb/MazAQ10YI24H181o7w6zeQ=="
+    "value": "80RgZnnZtANOxR0JAAgZoeNxSAUMs4bX\u002B2pnbFDS8B\u002BnPat3G4NpfJbZy0EZyK5xdB4Bw5yRM3rfEULIQucNwg=="
   }
 }
